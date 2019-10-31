@@ -1,0 +1,21 @@
+li p {
+    display: none;
+}
+.accordion ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion ul li {
+    display: block;
+    background: #419D00;
+}
+
+.accordion ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 19px 14px;
+    display: block;
+    border-bottom: 2px solid;
+}
