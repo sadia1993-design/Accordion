@@ -83,7 +83,7 @@
 		$('a').click(function(e){
 			
 			e.preventDefault();
-			$('p').toggle(1000);
+			$(this).next().slideToggle(1000);
 			
 		});
 		
