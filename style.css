@@ -19,3 +19,10 @@ li p {
     display: block;
     border-bottom: 2px solid;
 }
+.accordion ul li a i {
+    margin-right: 11px;
+}
+.accordion ul li p {
+    color: #fff;
+    padding: 10px 14px;
+}

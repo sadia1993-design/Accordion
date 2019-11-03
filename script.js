@@ -80,6 +80,12 @@
 	
 	$(document).ready(function() {
 		
+		$('a').click(function(e){
+			
+			e.preventDefault();
+			$('p').toggle(1000);
+			
+		});
 		
 		});
 	
